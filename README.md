@@ -4,11 +4,11 @@ This project, developed for MREN 410 Lab 3, demonstrates the use of neural netwo
 
 1.  **Gesture-Based Arm Control:** Utilizes MediaPipe to recognize hand gestures ("open" and "closed") for controlling the QArm's gripper. The system also tracks the hand's centroid to guide the arm's position, enabling intuitive human-robot interaction.
 
-![Alt text](1.1.png)
+![Alt text](4.png)
 
 2.  **Real-Time Object Detection:** Employs a YOLOv8n model to detect objects in the QArm's camera feed. The system overlays bounding boxes on the detected objects in the live video stream, showcasing the arm's environmental awareness capabilities.
 
-![Alt text](4.png)
+![Alt text](1.1.png)
 
 ## Acknowledgments
 
