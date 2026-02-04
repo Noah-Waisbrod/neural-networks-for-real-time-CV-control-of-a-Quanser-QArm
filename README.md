@@ -6,31 +6,6 @@ This project, developed for MREN 410 Lab 3, demonstrates the use of neural netwo
 
 2.  **Real-Time Object Detection:** Employs a YOLOv8n model to detect objects in the QArm's camera feed. The system overlays bounding boxes on the detected objects in the live video stream, showcasing the arm's environmental awareness capabilities.
 
-## Getting Started
-
-### Prerequisites
-
-*   Python 3 or newer
-*   Quanser QArm with RealSense camera
-*   The required Python libraries can be installed via pip:
-    ```bash
-    pip install opencv-python mediapipe ultralytics
-    ```
-
-### Running the Code
-
-1.  **Gesture Detection:**
-    To run the gesture detection and arm control script, execute the following command:
-    ```bash
-    python Lab3_GestureDetection.py
-    ```
-
-2.  **Object Detection:**
-    To run the object detection script, execute the following command:
-    ```bash
-    python Lab3_NeuralNet.py
-    ```
-
 ## Acknowledgments
 
 *   The project was developed from Quanser Research Example Code by Antonio Morales.
